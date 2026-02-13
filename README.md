@@ -55,7 +55,3 @@ The ANN model was trained for **25 epochs** and evaluated using **MSE and MAE**.
 
 ## 👥 **Contributors**
 - Melis Can
-- Ahmet Furkan Yorulmaz
-- Batuhan Gümüş
-- Arda Erturhan
-- Vehbi Ozan Güzel
