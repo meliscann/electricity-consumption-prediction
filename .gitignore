@@ -1,0 +1,6 @@
+data/
+outputs/
+CLAUDE.md
+PLAN.md
+__pycache__/
+.venv/
