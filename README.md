@@ -1,7 +1,9 @@
 # Household electricity consumption forecasting
 
+English | [Türkçe](README.tr.md)
+
 > Bu çalışma, 12/2024'te ders projesi olarak yapılan ilk sürümün 2026'da yeniden ele alınmış halidir.
-> (This work is a 2026 revisit of the first version, which was done as a course project in 12/2024. The 2024 code and reports are kept in `legacy/` for reference.)
+> (This work is a 2026 revisit of the first version, which was done as a course project in 12/2024. The 2024 code and reports are kept in `legacy/` for reference. The original state of the repository is also available at the `v1-2024` tag.)
 
 ## Problem
 
@@ -198,7 +200,7 @@ python3 -m venv .venv
 mkdir -p outputs/figures outputs/metrics outputs/models data/interim
 ```
 
-Place the original file at `data/raw/household_power_consumption.txt`. Steps 1 and 4 also need the 2024 minute file and the old hourly file (`electricity_data.csv`, `hourly_electricity_data.csv`) unzipped to `data/interim/extracted/ModelDatasets/`. They are not part of this repository.
+Place the original file at `data/raw/household_power_consumption.txt`. Steps 1 and 4 also need the 2024 minute file and the old hourly file (`electricity_data.csv`, `hourly_electricity_data.csv`) unzipped to `data/interim/extracted/ModelDatasets/`. They are not part of this repository (the 2024 data is the `ModelDatasets.zip` file at the `v1-2024` tag).
 
 ```bash
 D="--data-dir data"
